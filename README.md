@@ -90,7 +90,7 @@ Make sure you have credit on your account to activate the key.
 
 - Download the following files :
 
-`API_mail.py`
+`API_mail.ipynb`
 
 `requirements.txt`
 
