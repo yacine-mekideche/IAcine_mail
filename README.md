@@ -138,7 +138,7 @@ Lorsqu'un email est reçu, le script génère une réponse automatiquement et la
 
 - Vérifiez les réponses dans vos brouillons, modifiez si nécessaire, puis envoyez. :
   
-![image](https://github.com/user-attachments/assets/3497a4d6-1ef2-41fd-b74a-74bb0dd00fd2)
+![image](https://github.com/user-attachments/assets/e05978e8-96a1-4449-a863-5421f0ef5b94)
 
 La réponse générée est de grande qualité et tout à fait conforme au résultat atteint si j’avais passé de longues minutes à devoir répondre à ce mail de test.
 
