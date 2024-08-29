@@ -186,6 +186,9 @@ When an email is received, the script generates a reply automatically and stores
 
 ![image](https://github.com/user-attachments/assets/159db520-8b81-4dca-aa7e-9e4f2bda4d04)
 
+![image](https://github.com/user-attachments/assets/7b853491-298a-4ec1-b330-9dbf0ea123dc)
+
+
 - Check the replies in your drafts, edit if necessary, then send :
   
 ![image](https://github.com/user-attachments/assets/e05978e8-96a1-4449-a863-5421f0ef5b94)
