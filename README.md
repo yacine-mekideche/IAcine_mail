@@ -148,7 +148,8 @@ Congratulations! 🎉 Your setup is now complete!
 
 ![image](https://github.com/user-attachments/assets/b19c671f-f3c1-4afa-b541-00763a669ddf)
 
-![image](https://github.com/user-attachments/assets/d6a6c03e-11c5-440e-86aa-87dc8bc5bc83)
+![image](https://github.com/user-attachments/assets/beff0e9f-d68d-4eca-9a63-5ffd34b88b43)
+
 
 ![image](https://github.com/user-attachments/assets/377ac6d5-e8a8-4aec-8f0b-b904ed00b202)
 
@@ -162,7 +163,7 @@ Congratulations! 🎉 Your setup is now complete!
 
 
 
-- Test sending an email:
+## Test Step : sending an email:
 
 
 If no new email is received, the script will inform you:
@@ -203,6 +204,5 @@ For any questions or requests, please contact me directly on LinkedIn: https://w
 
 ---------------------------------------------------------------------
 © IAcine_mail 2024 - Yacine Mekideche. All rights reserved.
----------------------------------------------------------------------
 
 
