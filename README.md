@@ -68,12 +68,11 @@ Rendez-vous sur OpenAI API Keys (https://platform.openai.com/api-keys) et créez
 ### Étape 3 : Installation des dépendances et lancement du script
 
 - Créez un environnement virtuel :
-    Windows : python -m venv venv
-    Linux : source venv/bin/activate
+  Windows : python -m venv venv
   
 - Activez l'environnement :
-        Windows : .\venv\Scripts\Activate
-        Linux : source venv/bin/activate
+  Windows : .\venv\Scripts\Activate
+  Linux : source venv/bin/activate
 
 - Installez les dépendances :
     Utilisez la commande : pip install -r requirements.txt
