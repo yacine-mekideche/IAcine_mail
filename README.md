@@ -1,159 +1,208 @@
-# IAcine_mail : Votre IA-ssistant Gmail à portée de main !
+# IAcine_mail: Your Gmail AI-ssistant at your fingertips! 📩
 
-![image](https://github.com/user-attachments/assets/8329e85e-9169-4bd5-9ae2-f99335ca1b1e)
+![image](https://github.com/user-attachments/assets/67dbd647-5b10-4a37-83ac-714d9187388c)
+
 
 ## Introduction
+Daily email management can quickly become a tedious task, turning our inbox into a cluttered and disorganized space.
+Many of us dream of an empty inbox at the end of the day, but it often seems out of reach.
 
-La gestion quotidienne des emails peut rapidement devenir une tâche fastidieuse, transformant notre boîte de réception en un espace saturé et désorganisé. Beaucoup d'entre nous rêvent d'une boîte de réception vide à la fin de la journée, mais cela semble souvent hors de portée.
+It is from this frustration that the idea of ​​creating IAcine_mail was born: an intelligent assistant designed to relieve you of the management of your emails.
+With IAcine_mail, the generated responses are automatically stored in your drafts, giving you full control over their final sending.
 
-C'est de cette frustration qu'est née l'idée de créer IAcine_mail : un assistant intelligent conçu pour vous décharger de la gestion de vos emails. Avec IAcine_mail, les réponses générées sont automatiquement stockées dans vos brouillons, vous laissant le contrôle total quant à leur envoi final. Ce processus réduit considérablement votre charge mentale et le temps perdu sur des tâches répétitives.
+This process significantly reduces your mental load and the time wasted on repetitive tasks.
 
-Inspiré par des SaaS d'automatisation comme Make, j'ai décidé de créer un outil open-source basé sur un seul script Python. Cette approche offre non seulement un véritable challenge, mais elle permet également une personnalisation, un contrôle, et une indépendance supérieurs par rapport à l'utilisation d'un SaaS payant.
+Inspired by automation SaaS like Make, I decided to create an open-source tool based on a single Python script.
+This approach not only offers a real challenge, but it also allows for greater customization, control, and independence compared to using a paid SaaS.
 
-![image](https://github.com/user-attachments/assets/0f85249b-79b8-42e3-98b3-d5f64ca59a24)
-
-
-## Pré-requis pour utiliser IAcine_mail
-
-- Un compte Gmail
-- Un compte OpenAI avec une clé API active
-- Un IDE pour exécuter le script Python (par exemple, VS Code, JupyterLab)
-
-## Architecture de IAcine_mail
-
-![image](https://github.com/user-attachments/assets/f131fec3-8db4-4a73-8942-9c6d23eed5ae)
+![image](https://github.com/user-attachments/assets/0ea640e0-bec1-4c29-861b-51f8e5e7da46)
 
 
-## Étapes pour configurer et utiliser IAcine_mail
 
-### Étape 1 : Créer un projet sur Google Cloud Platform
+## Prerequisites to use IAcine_mail
 
-- Accédez à Google Cloud Platform.
-- Créez un nouveau projet et sélectionnez-le.
-![image](https://github.com/user-attachments/assets/e69ab587-a4d4-4ba6-8fcf-cff1cfeef3a4)
+- A Gmail account
+- An OpenAI account with an active API key
+- An IDE to run the Python script (e.g. VS Code, JupyterLab)
 
-- Activez l'API Gmail.
-![image](https://github.com/user-attachments/assets/187b6ccb-fa97-45eb-9f9a-3ff416acb687)
-
-- Créez des identifiants en cliquant sur "Create Credentials" (suivez les screens suivants) :
-    Type de compte : Desktop App
-    Sélectionnez "User Data"
-    Remplissez les informations comme requis
-    Sautez l’étape "Scope" et finalisez en cliquant sur "Create"
-
-![image](https://github.com/user-attachments/assets/931a77c3-7a2a-4488-8a6a-2a290af651da)
-![image](https://github.com/user-attachments/assets/67d9b261-34cb-42c0-b935-dc77b081240d)
-![image](https://github.com/user-attachments/assets/9d072af3-9296-4754-89bb-4536d5a22e87)
-![image](https://github.com/user-attachments/assets/468c9f82-4599-4011-abac-6f11be882a96)
-
-- Téléchargez votre Client ID généré :
-![image](https://github.com/user-attachments/assets/2031e2e2-3fec-43cc-a86b-4ba8a4a7961d)
+## Architecture of IAcine_mail
+![image](https://github.com/user-attachments/assets/28ab41df-26c1-442d-8df7-e16722383842)
 
 
-- Dans l'onglet "OAuth consent screen", ajoutez un utilisateur (utilisez le même email que précédemment) et sauvegardez.
-![image](https://github.com/user-attachments/assets/c9944c65-c18b-4af1-a097-7e5c7c944146)
-
-- Activez l'API Google People depuis le console GCP.
-![image](https://github.com/user-attachments/assets/cd5f88fd-9991-4dca-a193-3692af6fad02)
 
 
-Félicitations. Votre projet Google Cloud Platform est maintenant configuré !
+
+## Steps to configure and use IAcine_mail
+
+### Step 1: Create a project on Google Cloud Platform
+
+- Enable Gmail API.
+
+![image](https://github.com/user-attachments/assets/032688b8-f06b-4ed1-9c11-41faf48dd494)
 
 
-### Étape 2 : Obtenez votre clé API OpenAI
 
-Rendez-vous sur OpenAI API Keys (https://platform.openai.com/api-keys) et créez une nouvelle clé secrète. Assurez-vous d'avoir du crédit sur votre compte pour activer la clé.
+- Create credentials by clicking on "Create Credentials" (follow the following screens):
 
-
-### Étape 3 : Installation des dépendances et lancement du script
-
-- Créez un environnement virtuel :
-  Windows : python -m venv venv
+  `Account Type: Desktop App`
   
-- Activez l'environnement :
-  Windows : .\venv\Scripts\Activate
-  Linux : source venv/bin/activate
-
-- Installez les dépendances :
-    Utilisez la commande : pip install -r requirements.txt
-
-- Copiez le Client ID téléchargé dans un fichier nommé credentials.json :
-    Utilisez la commande : cp 'C:\Users\XXXX\Downloads\client_secret_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com.json' credentials.json
-
-
-Félicitations. Votre configuration est maintenant complète !
-
-
-### Étape 4 : Lancer le script
-
-- Exécutez le script et entrez "oui" :
-
-![image](https://github.com/user-attachments/assets/1e0052f6-95f6-4c33-b21d-049128a797c7)
-
-- Vous serez redirigé vers une page d'authentification Google.
+  `Select "User Data"`
   
-![image](https://github.com/user-attachments/assets/b5fdc971-177c-4019-af4b-d7b29a73c523)
+  `Fill in the information as required`
+  
+  `Skip the "Scope" step and finalize by clicking on "Create"`
+
+![image](https://github.com/user-attachments/assets/3da3e6ff-f851-4d95-9156-3483df1d0a76)
+
+![image](https://github.com/user-attachments/assets/b6fbd885-b25e-44a3-a321-7870ccb9d192)
+
+![image](https://github.com/user-attachments/assets/026598f7-c3e5-4be9-bfd7-3ccbd157e167)
+
+![image](https://github.com/user-attachments/assets/c73e6f2c-0cc8-47ef-a7ae-f81d7244d1c3)
+
+
+- Download your generated Client ID:
+
+![image](https://github.com/user-attachments/assets/a845712e-e168-4282-a1bd-45a8095e9a4f)
+
+
+- In the "OAuth consent screen" tab, add a user (use the same email as before) and save :
+
+![image](https://github.com/user-attachments/assets/4ada182f-9952-4d36-890a-363101c66206)
+
+
+- Enable Google People API from the GCP console.
+
+![image](https://github.com/user-attachments/assets/65824332-aa61-4017-b222-ec2f5d0ff8bd)
+
+
+Congratulations! 🎉 Your Google Cloud Platform project is now set up!
+
+
+### Step 2: Get your OpenAI API Key
+
+Go to OpenAI API Keys (https://platform.openai.com/api-keys) and create a new secret key. 
+
+Make sure you have credit on your account to activate the key.
+
+
+### Step 3: Installing dependencies and running the script
+
+- Download the following files :
+
+`API_mail.py`
+
+`requirements.txt`
+
+- Create a virtual environment; run the following command :
+
+```
+python -m venv venv
+```
+
+  
+- Activate the environment; run the following command :
+
+Windows:
+```
+.\venv\Scripts\Activate
+```
+
+Linux: 
+```
+source venv/bin/activate
+```
 
 
 
-- Autorisez l'accès aux permissions nécessaires et cliquez sur "Continue" :
+- Install the dependencies; run the following command :
 
-![image](https://github.com/user-attachments/assets/2925b50b-9e44-4bec-a71a-6c19653c80c1)
+```
+pip install -r requirements.txt
+```
 
+- Copy the downloaded Client ID into a file named credentials.json; run the following command :
 
-![image](https://github.com/user-attachments/assets/8b689e3f-948f-4f51-b40f-4c46087d134f)
+```
+cp 'C:\Users\XXXX\Downloads\client_secret_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com.json' credentials.json
+```
 
-![image](https://github.com/user-attachments/assets/85f2d375-9a5d-400c-a198-76e3cc971e38)
-
-
-
-
-- Vous atterrirez sur la fenêtre suivante que vous pourrez quitter : 
-
-![image](https://github.com/user-attachments/assets/8689637b-4bae-42b1-a8f6-e0442ff73233)
+Congratulations! 🎉 Your setup is now complete!
 
 
-- Testez l'envoi d'un email :
+### Step 4: Run the script
+
+- Run the script and enter "oui":
+
+![image](https://github.com/user-attachments/assets/5a14da2d-3338-4347-9dc7-b108451251cc)
 
 
-Si aucun nouveau mail n'est reçu, le script vous en informera :
-![image](https://github.com/user-attachments/assets/9e2b6e0f-77ef-4064-9ff8-8bbb8b34e05c)
+- You will be redirected to a Google authentication page :
+  
+![image](https://github.com/user-attachments/assets/5608918d-4ea3-4e0b-a6b0-63ff8cd6fbb0)
 
 
-Nous allons procéder à l’envoi d’un mail test depuis un autre compte Gmail :
+
+
+- Allow access to the necessary permissions and click "Continue" :
+
+![image](https://github.com/user-attachments/assets/b19c671f-f3c1-4afa-b541-00763a669ddf)
+
+![image](https://github.com/user-attachments/assets/d6a6c03e-11c5-440e-86aa-87dc8bc5bc83)
+
+![image](https://github.com/user-attachments/assets/377ac6d5-e8a8-4aec-8f0b-b904ed00b202)
+
+
+
+
+
+- You will see the following window that you can exit:
+
+![image](https://github.com/user-attachments/assets/e2221fae-92cd-4fe9-b030-66ab410e65a6)
+
+
+
+- Test sending an email:
+
+
+If no new email is received, the script will inform you:
+
+![image](https://github.com/user-attachments/assets/429111f3-15cc-45db-b3b6-a247312af527)
+
+
+We will proceed to send a test email from another Gmail account:
 
 ![image](https://github.com/user-attachments/assets/502c8de6-53f6-44c8-8ca1-54c342a1adfc)
 
 
-Après l’avoir envoyé, et l’avoir reçu sur notre boite mail :
+After sending it, and receiving it on our mailbox :
 
 ![image](https://github.com/user-attachments/assets/8f82b201-e20a-4dd4-9772-1d19d12a386b)
 
 
 
-Lorsqu'un email est reçu, le script génère une réponse automatiquement et la stocke dans vos brouillons.
+When an email is received, the script generates a reply automatically and stores it in your drafts.
 
 ![image](https://github.com/user-attachments/assets/159db520-8b81-4dca-aa7e-9e4f2bda4d04)
 
-- Vérifiez les réponses dans vos brouillons, modifiez si nécessaire, puis envoyez. :
+- Check the replies in your drafts, edit if necessary, then send :
   
 ![image](https://github.com/user-attachments/assets/e05978e8-96a1-4449-a863-5421f0ef5b94)
 
-La réponse générée est de grande qualité et tout à fait conforme au résultat atteint si j’avais passé de longues minutes à devoir répondre à ce mail de test.
 
 
+## Conclusion
 
-Conclusion
+The response generated is of high quality and completely consistent with the result achieved if I had spent long minutes having to respond to this test email.
 
-IAcine_mail est conçu pour vous simplifier la gestion de vos emails en automatisant la génération de réponses. Vous n'avez plus qu'à les valider avant de les envoyer, ce qui vous permet de rester organisé tout en gagnant du temps.
+IAcine_mail is designed to simplify the management of your emails by automating the generation of responses. You only have to validate them before sending them, which allows you to stay organized while saving time.
 
-Pour toute question ou demande, contactez-moi directement sur LinkedIn :
-LinkedIn - Yacine Mekideche (https://www.linkedin.com/in/yacine-mekideche/)
+For any questions or requests, please contact me directly on LinkedIn: https://www.linkedin.com/in/yacine-mekideche/.
 
 
 
 ---------------------------------------------------------------------
-© IAcine_mail 2024 - Yacine Mekideche. Tous droits réservés.
+© IAcine_mail 2024 - Yacine Mekideche. All rights reserved.
 ---------------------------------------------------------------------
 
 
