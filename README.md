@@ -8,7 +8,7 @@ La gestion quotidienne des emails peut rapidement devenir une tâche fastidieuse
 
 C'est de cette frustration qu'est née l'idée de créer IAcine_mail : un assistant intelligent conçu pour vous décharger de la gestion de vos emails. Avec IAcine_mail, les réponses générées sont automatiquement stockées dans vos brouillons, vous laissant le contrôle total quant à leur envoi final. Ce processus réduit considérablement votre charge mentale et le temps perdu sur des tâches répétitives.
 
-Inspiré par des SaaS tels que Make, j'ai décidé de créer un outil open-source basé sur un seul script Python. Cette approche offre non seulement un véritable challenge, mais elle permet également une personnalisation, un contrôle, et une indépendance supérieurs par rapport à l'utilisation d'un SaaS payant.
+Inspiré par des SaaS d'automatisation comme Make, j'ai décidé de créer un outil open-source basé sur un seul script Python. Cette approche offre non seulement un véritable challenge, mais elle permet également une personnalisation, un contrôle, et une indépendance supérieurs par rapport à l'utilisation d'un SaaS payant.
 
 ![image](https://github.com/user-attachments/assets/0f85249b-79b8-42e3-98b3-d5f64ca59a24)
 
