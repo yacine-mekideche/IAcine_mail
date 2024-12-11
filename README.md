@@ -1,44 +1,44 @@
-![image](https://github.com/user-attachments/assets/8a59cee9-495e-490d-afc5-1e0046cd3790)
+![image](https://github.com/user-attachments/assets/15f5f5d1-e529-4a0e-aa6c-8ebe6e04e1c4)
 
 
-## Introduction & Objectif
+## Introduction & Purpose
 
-**IAcine Mail** est un assistant Gmail intelligent conçu pour optimiser la gestion de vos e-mails. En utilisant le modèle de langage local **Llama3.2:b**, il lit, analyse et génère automatiquement des réponses professionnelles à vos e-mails non lus, tout en garantissant la sécurité et la confidentialité de vos données. 🔒✨
+**IAcine Mail** is an intelligent Gmail assistant designed to optimize your email management. Powered by the local language model **Llama3.2:b**, it reads, analyzes, and automatically generates professional responses to your unread emails while ensuring the security and confidentiality of your data. 🔒✨
 
-L'objectif principal d'**IAcine Mail** est d'accroître votre productivité en automatisant les tâches répétitives liées aux e-mails. Cet outil maintient votre boîte de réception organisée, réduit votre charge mentale et vous permet de vous concentrer sur des activités à forte valeur ajoutée grâce à une interface conviviale et des fonctionnalités avancées. 🚀📈
+The primary goal of **IAcine Mail** is to enhance your productivity by automating repetitive email-related tasks. This tool keeps your inbox organized, reduces mental overload, and allows you to focus on high-value activities thanks to its user-friendly interface and advanced features. 🚀📈
 
 
-## Fonctionnalités
+## Features
 
-- 📥 Gestion Automatisée des E-mails : Récupère et traite vos e-mails non lus.
-- ✉️ Réponses Intelligentes : Génère des réponses professionnelles automatiquement.
-- 🔒 Sécurité et Confidentialité : Traitement local des données pour protéger votre vie privée.
-- 📝 Création de Brouillons : Crée des brouillons de réponses pour validation avant envoi.
-- ☁️ Intégration GCP : Utilise Google Cloud Platform pour une gestion sécurisée et efficace des APIs Gmail et People.
+- 📥 **Automated Email Management**: Retrieves and processes your unread emails.
+- ✉️ **Smart Responses**: Automatically generates professional email replies.
+- 🔒 **Security and Confidentiality**: Processes all data locally to safeguard your privacy.
+- 📝 **Draft Creation**: Creates reply drafts for your review before sending.
+- ☁️ **GCP Integration**: Uses Google Cloud Platform for secure and efficient Gmail and People API management.
 
-## Technologies Utilisées
+## Technologies Used
 
 - 🐍 Python 3.12
-- ☁️ Google Cloud Platform (GCP) : Gestion des APIs Gmail et People.
-- 🔗 APIs Google : Gmail et People
-- 🧠 Modèle de Langage Local : Llama3.2:b
+- ☁️ Google Cloud Platform (GCP): Management of Gmail and People APIs.
+- 🔗 Google APIs: Gmail and People.
+- 🧠 Local Language Model: Llama3.2:b.
 
 
-## Architecture technique
+## Technical Architecture
 ![image](https://github.com/user-attachments/assets/28ab41df-26c1-442d-8df7-e16722383842)
 
 
 
-## Démo
+## Demo
 
 <a href="https://www.youtube.com/watch?v=AQH3z2Ee73g" target="_blank">
   <img src="https://img.youtube.com/vi/AQH3z2Ee73g/maxresdefault.jpg" alt="IAcine Mail - Démonstration Vidéo" style="max-width:100%; height:auto;">
 </a>
 
 
-## Me contacter
+## Contact Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yacine-mekideche/)
 
 ---------------------------------------------------------------------
-Améliorez votre gestion des e-mails avec IAcine Mail – votre assistant Gmail intelligent ! 😊
+Improve your email management with IAcine Mail – your intelligent Gmail assistant! 😊
