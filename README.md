@@ -1,5 +1,3 @@
-# IAcine Mail: Votre Assistant Gmail Intelligent à Portée de Main! 📩
-
 ![image](https://github.com/user-attachments/assets/8a59cee9-495e-490d-afc5-1e0046cd3790)
 
 
