@@ -2,13 +2,13 @@
 
 ![image](https://github.com/user-attachments/assets/8a59cee9-495e-490d-afc5-1e0046cd3790)
 
-## Introduction
 
-IAcine Mail est un assistant intelligent conçu pour simplifier la gestion de vos e-mails sur Gmail. En utilisant un modèle de langage local Llama3.2:b, il lit, analyse et génère automatiquement des brouillons de réponses professionnelles à vos e-mails non lus, tout en assurant la sécurité et la confidentialité de vos données. ✨
+## Introduction & Objectif
 
-## Objectif
+**IAcine Mail** est un assistant Gmail intelligent conçu pour optimiser la gestion de vos e-mails. En utilisant le modèle de langage local **Llama3.2:b**, il lit, analyse et génère automatiquement des réponses professionnelles à vos e-mails non lus, tout en garantissant la sécurité et la confidentialité de vos données. 🔒✨
 
-L'objectif de IAcine Mail est d'améliorer votre productivité en automatisant la gestion de vos e-mails, vous permettant ainsi de vous concentrer sur ce qui compte vraiment. 🚀
+L'objectif principal d'**IAcine Mail** est d'accroître votre productivité en automatisant les tâches répétitives liées aux e-mails. Cet outil maintient votre boîte de réception organisée, réduit votre charge mentale et vous permet de vous concentrer sur des activités à forte valeur ajoutée grâce à une interface conviviale et des fonctionnalités avancées. 🚀📈
+
 
 ## Fonctionnalités
 
@@ -24,8 +24,6 @@ L'objectif de IAcine Mail est d'améliorer votre productivité en automatisant l
 - ☁️ Google Cloud Platform (GCP) : Gestion des APIs Gmail et People.
 - 🔗 APIs Google : Gmail et People
 - 🧠 Modèle de Langage Local : Llama3.2:b
-- 📈 Tqdm : Pour des barres de progression dans le terminal
-
 
 
 ## Architecture technique
@@ -40,6 +38,9 @@ L'objectif de IAcine Mail est d'améliorer votre productivité en automatisant l
 </a>
 
 
+## Me contacter
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yacine-mekideche/)
 
 ---------------------------------------------------------------------
 Améliorez votre gestion des e-mails avec IAcine Mail – votre assistant Gmail intelligent ! 😊
