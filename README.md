@@ -25,8 +25,7 @@ The primary goal of **IAcine Mail** is to enhance your productivity by automatin
 
 
 ## Technical Architecture
-![image](https://github.com/user-attachments/assets/28ab41df-26c1-442d-8df7-e16722383842)
-
+![Diagramme sans nom drawio](https://github.com/user-attachments/assets/39932747-00c5-4176-a4e1-ceb7b6e26683)
 
 
 ## Demo
